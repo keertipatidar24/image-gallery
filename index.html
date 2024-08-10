@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌠Image Gallery 🌠</h1>
+    <div class="full-img" id="fullImgBox">
+        <span class="nav prev" onclick="changeImage(-1)">&#10094;</span>
+       <img src="img1.jpeg" id="fullImg">
+       <span class="nav next" onclick="changeImage(1)">&#10095;</span>
+       <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+        <img src="/JS/img2.jpg" alt="img-1" data-description="This is a Rose" onclick="openFullImg(this.src)">
+        <img src="/JS/img3.jpg" alt="img-2" data-description="This is a Tulip" onclick="openFullImg(this.src)">
+        <img src="/JS/image11.jpg" alt="img-3" data-description="This is a Nature of beauty" onclick="openFullImg(this.src)">
+        <img src="/JS/img5.jpg"  alt="img-4" data-description="This is a Highway"onclick="openFullImg(this.src)">
+        <img src="/JS/img8.jpg" alt="img-5" data-description="This is a Dahlia"onclick="openFullImg(this.src)">
+        <img src="/JS/img1.jpg" alt="img-6" data-description="This is a Zinnia"onclick="openFullImg(this.src)">
+        <img src="/JS/img3.jpg" alt="img-7" data-description="This is a Tulip"onclick="openFullImg(this.src)">
+        <img src="/JS/img6.jpg"alt="img-8" data-description="This is a forest"onclick="openFullImg(this.src)">
+        <img src="/JS/img02.jpg"alt="img-9" data-description="This is a Flex"onclick="openFullImg(this.src)">
+    </div>
+    <script src="/JS/script.js"></script>   
+</body>
+</html> 
